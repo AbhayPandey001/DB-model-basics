@@ -53,7 +53,8 @@ ___
 mongoose.model do arguments leta hai , ek toh naam of model isi naam se schema banta hai halka edit hoke :    
 **rule** : jo v name diye hain woh plural hojayega and lowercase completely so User -> users and Todo -> todos  
 second argument leta hai ki kis basis pe model banana hai .   
-Toh hamne uper jo schema banaya hota hai woh pass kar dete hain.
+Toh hamne uper jo schema banaya hota hai woh pass kar dete hain.        
+model relate hota hai mongodb ke collection se  
 ___
 
 schema ke andr directly {
