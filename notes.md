@@ -46,7 +46,7 @@ export const User = mongoose.model('User' , userSchema)
 yeh structure har jagah same rehta hai 
 ## hota kya hai
 export const user isliye kiye qki yeh wala schema kai aur jagah v use ho sakta hai waha import kr lenge.   
-schema ke andr jo v define kiye hain uski help se ek schema ban jata hai joh directly database mein apply ho jata hai.  
+schema ke andr jo v define kiye hain uski help se ek schema ban jata hai joh Schema backend mein apply hota hai aur MongoDB mein save hone se pehle data ko validate karta hai..  
 ab directly usme values aati hai future mein and define nahi karna padta hai.  
 data kaise rakhna hai woh schema object mein define hota hai.
 ___
